@@ -30,6 +30,11 @@ class App extends Component {
             />
           )}
         />
+        <Route
+          exact
+          path="/palette/:paletteId/:colorId"
+          render={() => <h1>Shades of color</h1>}
+        />
       </Switch>
       // <div>
       //   <Palette palette={generatePalette(seedPalettes[4])} />
