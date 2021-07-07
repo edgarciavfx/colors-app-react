@@ -24,7 +24,6 @@ export default class Navbar extends Component {
     this.setState({ open: false });
   }
   render() {
-    console.log(this.props.changeFormat);
     const { level, changeLevel } = this.props;
     const { format } = this.state;
     return (
