@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import chroma from 'chroma-js';
 export default {
   ColorBox: {
